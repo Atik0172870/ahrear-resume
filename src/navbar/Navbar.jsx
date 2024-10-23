@@ -24,7 +24,7 @@ function Navbar() {
     return (
         // <!-- Navbar -->
         <div className="navbar-div">
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <a className="navbar-brand d-flex align-items-center ms-3" >
                     <img src={profile_pic} alt="Avatar Logo" className="rounded-circle profile_pic" />
                 </a>
