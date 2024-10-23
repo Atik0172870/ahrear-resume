@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.title-designation {
+  color: #2e59a3;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.contact {
+  font-size: 14px;
+  /* font-weight: 600; */
+}
+
+.common-header {
+  color: #144097;
+  font-weight: 600;
+  font-size: 16x;
+}
+
+.technology-item {
+  color: #2e59a3;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.common-font-size {
+  font-size: 13px;
+  /* font-weight: 600; */
+}
+
+.profile-img {
+  /* width: 80px; */
+  height: 90px;
+  object-fit: cover;
+  margin: 0 auto;
+  position: absolute;
+  right: 49px;
+}
+
+
+.secoond-page {
+  padding-bottom: 3rem !important;
+}
+
+/* A4 Page Styling */
+.a4-page {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 0 5mm 0 10mm;
+  background-color: white;
+  box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+
+  @media only screen and (max-width: 768px) {
+    width: auto;
+    padding: 0px;
+    margin-left: auto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: auto;
+    padding: 0px;
+    margin-left: auto;
+  }
+}
+
+
+.degree-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media print {
+
+  body,
+  .a4-page {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+
+.home-profile-pic {
+  height: 78vh;
+  position: relative;
+  top: -6rem;
+  left: -12rem;
+
+  @media only screen and (max-width: 768px) {
+    left: auto;
+    height: 68vh;
+    position: relative;
+    top: -2rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    left: auto;
+    height: 68vh;
+    position: relative;
+    top: -2rem;
+  }
+}
+
+
+
+
+
+
